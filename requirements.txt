@@ -1,0 +1,11 @@
+django
+djangorestframework
+libpq-dev
+psycopg2-binary
+psycopg2
+django-oauth-toolkit
+AfricastalkingGateway
+Africastalking
+pytest
+pytest-django
+
