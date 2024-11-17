@@ -1,6 +1,6 @@
-django
-djangorestframework
-libpq-dev
+django == 3.1.*
+djangorestframework == 3.11.1
+# sudo apt install libpq-dev
 psycopg2-binary
 psycopg2
 django-oauth-toolkit
@@ -8,4 +8,3 @@ AfricastalkingGateway
 Africastalking
 pytest
 pytest-django
-

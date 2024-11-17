@@ -2,7 +2,7 @@
 #### A step-by-step guide
 1. In your terminal create a virtual environment by running the commands `mkdir env` then `python3 -m venv env/oenv`
 2. To start your virtual environment run the command `source env/oenv/bin/activate` .To stop the environment run `deactivate` command
-3. Install dependancies using this command in the root directory of the project `pip install requirements.txt`
+3. Install dependancies using this command in the root directory of the project `pip install -r requirements.txt`
 4. To configure your database go to the `settings.py` file and edit the properties below, bearing in mind postgres servers and client is installed on your machine 
 
 DATABASES = {

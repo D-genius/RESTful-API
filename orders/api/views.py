@@ -1,10 +1,10 @@
 from rest_framework import generics, viewsets
 from django.shortcuts import get_object_or_404
-from django.utils.cache import cache
+# from django.utils.cache import cache
 from rest_framework.views import APIView
 from rest_framework.response import Response
 from ..models import Customer, Order
-from serializers import CustomerSerializer ,OrderSerializer
+from .serializers import CustomerSerializer ,OrderSerializer
 import  africastalking
 from rest_framework.authentication import BasicAuthentication
 from rest_framework.permissions import IsAuthenticated
